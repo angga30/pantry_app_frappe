@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include management_pantry *.css
+recursive-include management_pantry *.csv
+recursive-include management_pantry *.html
+recursive-include management_pantry *.ico
+recursive-include management_pantry *.js
+recursive-include management_pantry *.json
+recursive-include management_pantry *.md
+recursive-include management_pantry *.png
+recursive-include management_pantry *.py
+recursive-include management_pantry *.svg
+recursive-include management_pantry *.txt
+recursive-exclude management_pantry *.pyc
