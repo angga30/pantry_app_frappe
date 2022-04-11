@@ -1,0 +1,28 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Order Line",
+  "enabled": 1,
+  "modified": "2022-04-11 10:34:41.811914",
+  "name": "Order Line-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Order Line',  {\n\tvalidate: function(frm) {\n\t    \n\t}\n})\n\nfrappe.ui.form.on(\"Order Line\", \"price\", function(frm, cdt, cdn) {\n\n    total = flt(frm.doc.price) * flt(frm.doc.quantity)\n\n    frm.set_value(\"sub_total\",total)\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "order",
+  "enabled": 1,
+  "modified": "2022-04-11 10:29:10.772696",
+  "name": "order-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on(\"Order Line\", \"price\", function(frm, cdt, cdn) {\n\n     var order_line = frm.doc.order_line\n     var total = 0\n     for(var i in order_line) {\n      total += + order_line[i].price * order_line[i].quantity\n      }\n\n    frm.set_value(\"total\",total)\n});",
+  "view": "Form"
+ }
+]
