@@ -24,14 +24,14 @@
    "fieldname": "created_at",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "created_at",
+   "label": "Created At",
    "reqd": 1
   },
   {
    "fieldname": "division",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "division",
+   "label": "Fungsi",
    "options": "Division",
    "reqd": 1
   },
@@ -68,8 +68,9 @@
   },
   {
    "fieldname": "justifikasi",
-   "fieldtype": "Data",
-   "label": "Justifikasi"
+   "fieldtype": "Link",
+   "label": "Justifikasi",
+   "options": "Justifikasi"
   },
   {
    "fieldname": "column_break_4",
@@ -81,14 +82,14 @@
   },
   {
    "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "description"
+   "fieldtype": "Link",
+   "label": "Description",
+   "options": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2022-04-11 23:10:52.372950",
+ "modified": "2022-04-18 23:58:22.573051",
  "modified_by": "Administrator",
  "module": "master",
  "name": "order",
@@ -116,7 +117,6 @@
    "report": 1,
    "role": "User Admin",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],

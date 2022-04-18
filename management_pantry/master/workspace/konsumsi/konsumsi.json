@@ -1,28 +1,29 @@
 {
- "cards_label": "Order List",
+ "cards_label": "Master",
  "category": "Modules",
  "charts": [
   {
-   "chart_name": "Total Order Per Division",
-   "label": "Total Order Division"
-  },
-  {
    "chart_name": "Total Order Per Day",
    "label": "Order Per Day"
+  },
+  {
+   "chart_name": "Total Order Per Division",
+   "label": "Order Per Division"
   }
  ],
- "charts_label": "Konsumsi",
- "creation": "2022-04-10 09:25:37.918396",
+ "charts_label": "Main",
+ "creation": "2022-04-19 00:43:07.344774",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
  "docstatus": 0,
  "doctype": "Workspace",
  "extends_another_page": 0,
  "hide_custom": 0,
+ "icon": "home",
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "Main",
+ "label": "Konsumsi",
  "links": [
   {
    "hidden": 0,
@@ -36,18 +37,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Division List",
+   "label": "Division",
    "link_to": "Division",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-04-19 00:39:07.275574",
+ "modified": "2022-04-19 00:43:07.344774",
  "modified_by": "Administrator",
  "module": "master",
- "name": "Main",
- "onboarding": "",
+ "name": "Konsumsi",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 1,

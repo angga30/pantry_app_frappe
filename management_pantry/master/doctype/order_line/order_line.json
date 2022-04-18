@@ -8,8 +8,10 @@
  "engine": "InnoDB",
  "field_order": [
   "item",
-  "price",
+  "jenis",
+  "satuan",
   "quantity",
+  "price",
   "sub_total"
  ],
  "fields": [
@@ -38,12 +40,26 @@
    "fieldname": "sub_total",
    "fieldtype": "Read Only",
    "label": "Sub Total"
+  },
+  {
+   "default": "Reguler",
+   "fieldname": "jenis",
+   "fieldtype": "Select",
+   "label": "Jenis",
+   "options": "Reguler\nVIP\nBuah\nRebusan\nBuffet\nBevereges"
+  },
+  {
+   "default": "Pax",
+   "fieldname": "satuan",
+   "fieldtype": "Select",
+   "label": "Satuan",
+   "options": "Pax\nBox\nPcs"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-04-07 23:37:18.588564",
+ "modified": "2022-04-19 00:01:28.276367",
  "modified_by": "Administrator",
  "module": "master",
  "name": "Order Line",

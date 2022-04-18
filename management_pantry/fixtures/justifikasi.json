@@ -1,0 +1,22 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Justifikasi",
+  "justifikasi": "Internal Operation",
+  "modified": "2022-04-18 23:46:32.768739",
+  "name": "Internal Operation",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Justifikasi",
+  "justifikasi": "Intruksi Tambahan",
+  "modified": "2022-04-18 23:46:53.093770",
+  "name": "Intruksi Tambahan",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]

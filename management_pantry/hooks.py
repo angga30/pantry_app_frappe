@@ -187,4 +187,4 @@ user_data_fields = [
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
 
-fixtures = ["Custom Field", "Role", "Client Script", "Workspace"]
+fixtures = ["Custom Field", "Role", "Client Script", "Workspace", "Justifikasi", "Description", "Division"]

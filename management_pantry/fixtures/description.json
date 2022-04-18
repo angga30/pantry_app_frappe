@@ -1,0 +1,142 @@
+[
+ {
+  "description": "Kunjungan Tamu External",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:33.867288",
+  "name": "Kunjungan Tamu External",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Support Operasional Kilang",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.210161",
+  "name": "Support Operasional Kilang",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Audiensi warga penyangga",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.252763",
+  "name": "Audiensi warga penyangga",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "On the Job training",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.300868",
+  "name": "On the Job training",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Event Perusahaan",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.340796",
+  "name": "Event Perusahaan",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Konsumsi Shift",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.374448",
+  "name": "Konsumsi Shift",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Pengamanan Asset Perusahaan",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.403606",
+  "name": "Pengamanan Asset Perusahaan",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Medical Check UP",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.429983",
+  "name": "Medical Check UP",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Change Out Catalyst",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.458928",
+  "name": "Change Out Catalyst",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Turn Around",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.484788",
+  "name": "Turn Around",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Bapor",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.511135",
+  "name": "Bapor",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Acara keagamaan",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.535242",
+  "name": "Acara keagamaan",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Annual Award",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.562248",
+  "name": "Annual Award",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "Bantuan dukungan stakeholder",
+  "docstatus": 0,
+  "doctype": "Description",
+  "modified": "2022-04-18 23:45:34.588638",
+  "name": "Bantuan dukungan stakeholder",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]
