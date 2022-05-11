@@ -4,12 +4,12 @@
   "doctype": "Client Script",
   "dt": "Order Line",
   "enabled": 1,
-  "modified": "2022-04-11 10:34:41.811914",
+  "modified": "2022-05-11 20:21:58.774442",
   "name": "Order Line-Form",
   "parent": null,
   "parentfield": null,
   "parenttype": null,
-  "script": "frappe.ui.form.on('Order Line',  {\n\tvalidate: function(frm) {\n\t    \n\t}\n})\n\nfrappe.ui.form.on(\"Order Line\", \"price\", function(frm, cdt, cdn) {\n\n    total = flt(frm.doc.price) * flt(frm.doc.quantity)\n\n    frm.set_value(\"sub_total\",total)\n});",
+  "script": "frappe.ui.form.on('Order Line',  {\n\tvalidate: function(frm) {\n\t    \n\t}\n})\n\nfrappe.ui.form.on(\"Order Line\", \"price\", function(frm, cdt, cdn) {\n\n    total = flt(frm.doc.price) * flt(frm.doc.quantity)\n\n    frm.set_value(\"sub_total\",total)\n});\n\nfrappe.ui.form.on(\"Order Line\", \"item\", function(frm, cdt, cdn) {\n    frm.set_value(\"price\", 120)\n});",
   "view": "Form"
  },
  {
@@ -17,12 +17,12 @@
   "doctype": "Client Script",
   "dt": "order",
   "enabled": 1,
-  "modified": "2022-04-11 10:29:10.772696",
+  "modified": "2022-05-11 21:24:37.754106",
   "name": "order-Form",
   "parent": null,
   "parentfield": null,
   "parenttype": null,
-  "script": "frappe.ui.form.on(\"Order Line\", \"price\", function(frm, cdt, cdn) {\n\n     var order_line = frm.doc.order_line\n     var total = 0\n     for(var i in order_line) {\n      total += + order_line[i].price * order_line[i].quantity\n      }\n\n    frm.set_value(\"total\",total)\n});",
+  "script": "frappe.ui.form.on(\"Order Line\", \"quantity\", function(frm, cdt, cdn) {\n    console.log(frm)\n     var order_line = frm.doc.order_line\n     var total = 0\n     for(var i in order_line) {\n      total += + order_line[i].price * order_line[i].quantity\n      }\n\n    frm.set_value(\"total\",total)\n});\n\nfrappe.ui.form.on(\"Order Line\", \"item\", function(frm, cdt, cdn) {\n    console.log(frm)\n    console.log(cdt)\n    console.log(cdn)\n     var order_line = frm.doc.order_line\n     var total = 0\n     for(var i in order_line) {\n         frappe.call({\n\t\t\tmethod: \"frappe.client.get\",\n\t\t\targs: {\n\t\t\t\tdoctype: \"Items\",\n\t\t\t\tfilters: {\"name\":order_line[i].item}    //user is current user here\n\t\t\t},\n\t\t\tcallback: function(r) {\n\t\t\t\tfrappe.model.set_value(order_line[i].doctype, order_line[i].name, \"price\", r.message.price)\n\t\t\t\tfrappe.model.set_value(order_line[i].doctype, order_line[i].name, \"satuan\", r.message.unit)\n\t\t\t}\n\t\t})\n         \n     }\n     frm.refresh_field('details');\n\n});\n\n",
   "view": "Form"
  }
 ]

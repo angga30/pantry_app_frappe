@@ -2,6 +2,17 @@
  {
   "docstatus": 0,
   "doctype": "Division",
+  "modified": "2022-04-07 23:15:23.810378",
+  "name": "Marketing",
+  "name1": "Marketing",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "prefix": "mark"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Division",
   "modified": "2022-04-19 00:04:26.040899",
   "name": "General Manager",
   "name1": "General Manager",

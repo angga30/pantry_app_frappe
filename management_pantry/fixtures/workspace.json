@@ -2688,6 +2688,83 @@
   "shortcuts_label": null
  },
  {
+  "cards_label": "Order List",
+  "category": "Modules",
+  "charts": [
+   {
+    "chart_name": "Total Order Per Division",
+    "label": "Total Order Division",
+    "parent": "Main",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Total Order Per Day",
+    "label": "Order Per Day",
+    "parent": "Main",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "charts_label": "Konsumsi",
+  "developer_mode_only": 0,
+  "disable_user_customization": 0,
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "extends": null,
+  "extends_another_page": 0,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": null,
+  "is_default": 0,
+  "is_standard": 1,
+  "label": "Main",
+  "links": [
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Order List",
+    "link_to": "order",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Main",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Division List",
+    "link_to": "Division",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Main",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   }
+  ],
+  "modified": "2022-04-19 00:39:07.275574",
+  "module": "master",
+  "name": "Main",
+  "onboarding": "",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "pin_to_bottom": 0,
+  "pin_to_top": 1,
+  "restrict_to_domain": null,
+  "shortcuts": [],
+  "shortcuts_label": null
+ },
+ {
   "cards_label": "Master",
   "category": "Modules",
   "charts": [
@@ -2701,6 +2778,13 @@
    {
     "chart_name": "Total Order Per Division",
     "label": "Order Per Division",
+    "parent": "Konsumsi",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Division",
+    "label": "Order",
     "parent": "Konsumsi",
     "parentfield": "charts",
     "parenttype": "Workspace"
@@ -2749,9 +2833,24 @@
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Item",
+    "link_to": "Items",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Konsumsi",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
    }
   ],
-  "modified": "2022-04-19 00:43:07.344774",
+  "modified": "2022-05-11 21:32:02.968821",
   "module": "master",
   "name": "Konsumsi",
   "onboarding": null,

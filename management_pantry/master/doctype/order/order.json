@@ -14,6 +14,8 @@
   "created_at",
   "section_break_6",
   "description",
+  "column_break_8",
+  "tipe",
   "section_break_4",
   "order_line",
   "total",
@@ -24,7 +26,7 @@
    "fieldname": "created_at",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "Created At",
+   "label": "Order Date",
    "reqd": 1
   },
   {
@@ -85,11 +87,21 @@
    "fieldtype": "Link",
    "label": "Description",
    "options": "Description"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tipe",
+   "fieldtype": "Select",
+   "label": "Tipe",
+   "options": "Kontrak Shift\nKontrak Non Shift\nSPK"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-04-18 23:58:22.573051",
+ "modified": "2022-05-11 21:46:07.235076",
  "modified_by": "Administrator",
  "module": "master",
  "name": "order",

@@ -17,9 +17,10 @@
  "fields": [
   {
    "fieldname": "item",
-   "fieldtype": "Long Text",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Item",
+   "options": "Items",
    "reqd": 1
   },
   {
@@ -51,7 +52,7 @@
   {
    "default": "Pax",
    "fieldname": "satuan",
-   "fieldtype": "Select",
+   "fieldtype": "Text",
    "label": "Satuan",
    "options": "Pax\nBox\nPcs"
   }
@@ -59,7 +60,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-04-19 00:01:28.276367",
+ "modified": "2022-05-11 21:26:27.414357",
  "modified_by": "Administrator",
  "module": "master",
  "name": "Order Line",
