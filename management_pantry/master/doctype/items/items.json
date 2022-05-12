@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:item_name",
+ "autoname": "format:{item_name}-{tipe}",
  "creation": "2022-05-11 20:11:10.346869",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -9,29 +9,43 @@
  "field_order": [
   "item_name",
   "unit",
-  "price"
+  "price",
+  "tipe"
  ],
  "fields": [
   {
    "fieldname": "item_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name",
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "unit",
    "fieldtype": "Data",
-   "label": "unit"
+   "in_list_view": 1,
+   "label": "unit",
+   "reqd": 1
   },
   {
    "fieldname": "price",
    "fieldtype": "Data",
-   "label": "Price"
+   "in_list_view": 1,
+   "label": "Price",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tipe",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Tipe",
+   "options": "Kontrak Shift\nKontrak Non Shift\nSPK",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-05-11 20:11:10.346869",
+ "modified": "2022-05-12 22:06:09.426611",
  "modified_by": "Administrator",
  "module": "master",
  "name": "Items",
