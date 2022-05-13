@@ -29,7 +29,7 @@
   },
   {
    "fieldname": "price",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Price",
    "reqd": 1
@@ -45,7 +45,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-05-12 22:06:09.426611",
+ "modified": "2022-05-14 06:41:24.711637",
  "modified_by": "Administrator",
  "module": "master",
  "name": "Items",
