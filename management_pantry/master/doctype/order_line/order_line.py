@@ -5,4 +5,6 @@
 from frappe.model.document import Document
 
 class OrderLine(Document):
-	pass
+    def before_save(self):
+        self.sub_total = self.quantity * self.price
+
