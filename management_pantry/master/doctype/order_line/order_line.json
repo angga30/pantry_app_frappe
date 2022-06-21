@@ -9,6 +9,7 @@
  "field_order": [
   "item",
   "jenis",
+  "waktu",
   "satuan",
   "quantity",
   "price",
@@ -56,12 +57,17 @@
    "fieldtype": "Text",
    "label": "Satuan",
    "options": "Pax\nBox\nPcs"
+  },
+  {
+   "fieldname": "waktu",
+   "fieldtype": "Time",
+   "label": "Waktu"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-06-08 21:56:12.950547",
+ "modified": "2022-06-22 06:41:53.827234",
  "modified_by": "Administrator",
  "module": "master",
  "name": "Order Line",

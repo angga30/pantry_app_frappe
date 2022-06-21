@@ -22,7 +22,9 @@
   "section_break_4",
   "order_line",
   "total",
-  "amended_from"
+  "amended_from",
+  "section_break_17",
+  "keterangan"
  ],
  "fields": [
   {
@@ -113,11 +115,20 @@
   {
    "fieldname": "column_break_11",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "keterangan",
+   "fieldtype": "Text",
+   "label": "Keterangan"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-08 21:59:10.455710",
+ "modified": "2022-06-22 06:45:33.764219",
  "modified_by": "Administrator",
  "module": "master",
  "name": "order",
