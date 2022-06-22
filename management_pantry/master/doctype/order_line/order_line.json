@@ -60,8 +60,9 @@
   },
   {
    "fieldname": "waktu",
-   "fieldtype": "Time",
-   "label": "Waktu"
+   "fieldtype": "Select",
+   "label": "Waktu",
+    "options": "Pagi\nSiang\nSore\nMalam"
   }
  ],
  "index_web_pages_for_search": 1,
