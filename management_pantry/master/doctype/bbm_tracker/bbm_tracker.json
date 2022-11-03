@@ -114,12 +114,12 @@
    "fieldname": "jenis_kendaraan",
    "fieldtype": "Select",
    "label": "Jenis Kendaraan",
-   "options": "City Car\nBus\nTruck\nPick Up"
+   "options": "Fortuner\nInnova\nPanther\nTriton\nHiace\nBLC\nBus\nForklif\nCrane\nVaccum\nAmbulance"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-19 07:39:11.290121",
+ "modified": "2022-11-03 19:25:52.122744",
  "modified_by": "Administrator",
  "module": "master",
  "name": "BBM Tracker",
