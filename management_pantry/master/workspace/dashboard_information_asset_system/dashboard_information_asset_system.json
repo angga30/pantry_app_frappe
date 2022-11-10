@@ -27,7 +27,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "Information Management Asset",
+ "label": "Dashboard Information Asset System",
  "links": [
   {
    "hidden": 0,
@@ -69,7 +69,7 @@
  "modified": "2022-10-23 23:28:33.183840",
  "modified_by": "Administrator",
  "module": "master",
- "name": "Information Management Asset",
+ "name": "Dashboard Information Asset System",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 1,
